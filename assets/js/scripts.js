@@ -47,10 +47,10 @@ jQuery(function ($) {
     // Full Screen Slider
     // -------------------------------------------------------------
     (function () {
-        $(".tt-fullHeight").height($(window).height());
+        $(".tt-fullHeight").height($(window).height()-100);
 
         $(window).resize(function(){
-            $(".tt-fullHeight").height($(window).height());
+            $(".tt-fullHeight").height($(window).height()-100);
         });
 
     }());
